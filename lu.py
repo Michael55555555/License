@@ -36,7 +36,7 @@ def pretty_print(A):
 if __name__ == '__main__':
 	print("Introduceti ordinul matricei: \t", end="")
 	n = int(input())
-	print("Introduceti elementele matricei, in ordine, pe linii:")
+	print("Introduceti elementele matricei, in ordine, pe linii:\n")
 	A = read_matrix(n)
 	[L, U] = LU(A)
 	print()
@@ -47,7 +47,6 @@ if __name__ == '__main__':
 	print()
 	print("U = ")
 	pretty_print(U)
-
 
 if __name__ == '__main__':
 	A = [[3, 2, 1], [4, -1, 2], [-1, 2, 5]]
