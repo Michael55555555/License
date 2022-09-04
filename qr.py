@@ -77,7 +77,6 @@ if __name__ == '__main__':
 	n = int(input())
 	print("Introduceti elementele matricei, in ordine, pe linii:")
 	A = read_matrix(n)
-	# A = [[3, 2, 1], [4, -1, 2], [-1, 2, 5]]
 	[Q, R] = QR(A)
 	print()
 	print("Descompunerea QR a matricei A:")
